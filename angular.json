@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "git": {
+    "101303363-lab-test2-comp3133": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
