@@ -1,0 +1,7 @@
+<h2 class="mission-details-title">Mission Details</h2>
+<div *ngIf="mission" class="mission-details-container">
+  <h3>{{ mission.mission_name }}</h3>
+  <p>Launch Year: {{ mission.launch_year }}</p>
+  <p>Details: {{ mission.details }}</p>
+  <img [src]="mission.links.mission_patch_small" alt="Mission Patch">
+</div>
